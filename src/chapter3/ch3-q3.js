@@ -13,7 +13,7 @@
  */
 export class StackOfStacks {
   constructor(maxSize) {
-    if (arguments.length < 1) {
+    if (maxSize.length < 1) {
       throw new Error('maxSize argument is required');
     }
     this.stacks = [[]];
